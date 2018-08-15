@@ -73,7 +73,7 @@ key: a dictionary key used to sort the list of dictionaries
 Tests can be run using the following command:
 
 ```
-python3 setup.py tests
+python3 setup.py test
 ```
 
 ## Deployment
