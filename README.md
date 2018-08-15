@@ -48,12 +48,12 @@ Now you can use the dictlisttools functions.
 
 ### Module functions
 
-dictlisttools.sortbykey(dictionary, key)
+_dictlisttools.sortbykey(dictionary, key)_
 
 Sort a list of dictionaries by a common key and return the sorted list.
 
 ```
-sortbykey([{'A': 3}, {'A': 1}, {'A': 2}], 'A')
+dictlisttools.sortbykey([{'A': 3}, {'A': 1}, {'A': 2}], 'A')
 ```
 
 ###### Parameters:
