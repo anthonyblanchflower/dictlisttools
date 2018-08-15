@@ -1,8 +1,8 @@
 # Dictlisttools
 ###### version 1.0
-Anthony Blanchflower
+###### Anthony Blanchflower
 
-* Functions which operate on lists of dictionaries. *
+Functions which operate on lists of dictionaries.
 
 
 ## Getting Started
@@ -49,23 +49,23 @@ Now you can use the dictlisttools functions.
 #### Module functions
 
 ---
-##### dictlisttools.sortbykey*( dictionary, key)*
+##### dictlisttools.sortbykey( dictionary, key)
 ---
 
-...Sort a list of dictionaries by a common key and return the sorted list
+Sort a list of dictionaries by a common key and return the sorted list
 ```
-...sortbykey([{'A': 3}, {'A': 1}, {'A': 2}])
+sortbykey([{'A': 3}, {'A': 1}, {'A': 2}])
 ```
 
 ###### Parameters:
 
-...dictionary: a list of dictionaries sharing a common key
-...key: a dictionary key used to sort the list of dictionaries
+dictionary: a list of dictionaries sharing a common key
+key: a dictionary key used to sort the list of dictionaries
 
 ###### Returns:
 
 ```
-...[{'A': 1}, {'A': 2}, {'A': 3}]
+[{'A': 1}, {'A': 2}, {'A': 3}]
 ```
 
 ## Running the tests
@@ -73,12 +73,12 @@ Now you can use the dictlisttools functions.
 Tests can be run using the following command:
 
 ```
-seup.py tests
+python3 setup.py tests
 ```
 
 ## Deployment
 
-A distribution package can be generated  suing the following command:
+A distribution package can be generated using the following command:
 
 ```
 python3 setup.py sdist bdist_wheel
