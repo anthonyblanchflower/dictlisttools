@@ -54,12 +54,13 @@ Now you can use the dictlisttools functions.
 
 Sort a list of dictionaries by a common key and return the sorted list
 ```
-sortbykey([{'A': 3}, {'A': 1}, {'A': 2}])
+sortbykey([{'A': 3}, {'A': 1}, {'A': 2}], 'A')
 ```
 
 ###### Parameters:
 
 dictionary: a list of dictionaries sharing a common key
+
 key: a dictionary key used to sort the list of dictionaries
 
 ###### Returns:
