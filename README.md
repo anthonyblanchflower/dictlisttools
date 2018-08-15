@@ -46,13 +46,12 @@ import dictlisttools
 
 Now you can use the dictlisttools functions.
 
-#### Module functions
+### Module functions
 
----
 dictlisttools.sortbykey( dictionary, key)
----
 
 Sort a list of dictionaries by a common key and return the sorted list
+
 ```
 sortbykey([{'A': 3}, {'A': 1}, {'A': 2}], 'A')
 ```
