@@ -26,7 +26,7 @@ https://packaging.python.org/tutorials/installing-packages/
 
 ### Installing
 
-Dictlisttools can be installed as a python module using the pip installer
+Dictlisttools can be installed as a python module using the pip installer.
 
 ```
 $ pip install git+git://github.com/anthonyblanchflower/dictlisttools.git
@@ -50,7 +50,7 @@ Now you can use the dictlisttools functions.
 
 dictlisttools.sortbykey( dictionary, key)
 
-Sort a list of dictionaries by a common key and return the sorted list
+Sort a list of dictionaries by a common key and return the sorted list.
 
 ```
 sortbykey([{'A': 3}, {'A': 1}, {'A': 2}], 'A')
