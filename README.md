@@ -48,7 +48,7 @@ Now you can use the dictlisttools functions.
 
 ### Module functions
 
-dictlisttools.sortbykey( dictionary, key)
+dictlisttools.sortbykey(dictionary, key)
 
 Sort a list of dictionaries by a common key and return the sorted list.
 
